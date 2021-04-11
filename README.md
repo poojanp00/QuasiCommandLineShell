@@ -4,9 +4,8 @@
 A program for a quasi-command line shell in C called Commando which is designed to have functionalities similar to bash (default shell in many Linux machines), but also to have properties which distinguish it. 
 
 # Usage
-An example of usage for this code:
 
->bash% make                                        # Build commando
+**>bash% make **                                       # Build commando
 
 >>gcc -Wall -g -c commando.c
 
@@ -18,7 +17,7 @@ An example of usage for this code:
 
 >>gcc -Wall -g -o commando commando.o cmd.o cmdcol.o util.o
 
->bash% commando                                    # Start commando, prompt is @>
+**>bash% commando **                                   # Start commando, prompt is @>
 
 >@> help                                                      # Show available built-ins
 
@@ -46,24 +45,7 @@ An example of usage for this code:
 
 >>JOB  #PID      STAT   STR_STAT OUTB COMMAND
 
->@> ls test_data/                                             # Run ls on test_data/ directory
-
->@> list                                                      # ls now present as a running job
-
->>JOB  #PID      STAT   STR_STAT OUTB COMMAND
-
->0    #26532      -1        RUN   -1 ls test_data/ 
-
-@!!! ls[#26532]: EXIT(0)                                     # @!!! is an alert: job finished
-
-@> list                                                      # list again: see exit and output size
-
-JOB  #PID      STAT   STR_STAT OUTB COMMAND
-
-0    #26532       0    EXIT(0)  145 ls test_data/ 
-
-@> output-for 0                                              # show output for job 0 (ls)
-
+etc.
 
 ## blah
 
