@@ -5,7 +5,7 @@ A program for a quasi-command line shell in C called Commando which is designed 
 
 # Usage
 
-**>bash% make **                                       # Build commando
+>bash% make                                        # Build commando
 
 >>gcc -Wall -g -c commando.c
 
@@ -17,7 +17,7 @@ A program for a quasi-command line shell in C called Commando which is designed 
 
 >>gcc -Wall -g -o commando commando.o cmd.o cmdcol.o util.o
 
-**>bash% commando **                                   # Start commando, prompt is @>
+>bash% commando                                    # Start commando, prompt is @>
 
 >@> help                                                      # Show available built-ins
 
