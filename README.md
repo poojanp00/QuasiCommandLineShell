@@ -47,7 +47,11 @@ A program for a quasi-command line shell in C called Commando which is designed 
 
 etc.
 
-## blah
+## Contributing
+Pull requests are welcome. :)
 
-## blah
+## Ownership
+Poojan Patel (poojanp00@gmail.com)
+
+Spring 2021
 
