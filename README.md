@@ -1,4 +1,4 @@
-# QuasiCommandLineShell
+# Quasi Command Line Shell: Commando
 
 ## General Overview
 A program for a quasi-command line shell in C called Commando which is designed to have functionalities similar to bash (default shell in many Linux machines), but also to have properties which distinguish it. 
